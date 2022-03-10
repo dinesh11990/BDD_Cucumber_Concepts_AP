@@ -1,4 +1,5 @@
-Feature: This is the login feature for Orange HRM
+@DataDriven
+Feature: Without Example keyword - This is the login feature for Orange HRM
 Scenario: This is login scenario
 Given Go to login page
 When Enter the below credentials 

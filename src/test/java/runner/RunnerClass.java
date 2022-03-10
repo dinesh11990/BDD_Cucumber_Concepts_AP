@@ -6,7 +6,14 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="featureFiles/DataTableWithExample.feature", glue="stepDefinitions")
+@CucumberOptions(features="featureFiles", 
+glue="stepDefinitions",
+dryRun=true,
+monochrome=true,
+plugin={"html:report/WebReport", "json:report/jsonreport.json"},
+tags= {"@SimpleLogin","@DataDriven"}
+)
+
 public class RunnerClass {
 	
 	//it should combine the feature file and the step definition

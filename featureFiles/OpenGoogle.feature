@@ -1,3 +1,4 @@
+@OpenGoogle
 Feature: open google.com feature
 Scenario: open google website and search
  Given user is entering google.com

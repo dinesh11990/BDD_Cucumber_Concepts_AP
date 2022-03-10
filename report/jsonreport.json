@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Positive scenario",
+        "description": "",
+        "id": "login;positive-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the valid username and password",
+            "match": {
+              "location": "LoginSteps.the_user_enters_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "LoginSteps.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the user should be navigated to home page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Negative scenario",
+        "description": "",
+        "id": "login;negative-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user enters the valid username and password",
+            "match": {
+              "location": "LoginSteps.the_user_enters_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "LoginSteps.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "the user should be navigated to home page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SimpleLogin"
+      },
+      {
+        "line": 1,
+        "name": "@DataDriven"
+      }
+    ]
+  }
+]

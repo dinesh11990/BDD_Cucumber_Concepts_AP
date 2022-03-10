@@ -40,7 +40,7 @@ public class LoginSteps {
 	@Then("^the user should be navigated to home page$")
 	public void the_user_should_be_navigated_to_home_page() throws Throwable {
 
-		boolean status = driver.findElement(By.linkText("Welcome Paul")).isDisplayed();
+		boolean status = driver.findElement(By.linkText("Welcome Shamil")).isDisplayed();
 		Assert.assertTrue(status);
 
 	}
