@@ -7,11 +7,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="featureFiles", 
-glue="stepDefinitions",
+glue= {"stepDefinitions","hooks"},
 dryRun=true,
 monochrome=true,
 plugin={"html:report/WebReport", "json:report/jsonreport.json"},
-tags= {"@SimpleLogin","@DataDriven"}
+tags= {"@Hooks"}
 )
 
 public class RunnerClass {

@@ -3,10 +3,10 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "Positive scenario",
+        "line": 3,
+        "name": "Hook scenario Explanation",
         "description": "",
-        "id": "login;positive-scenario",
+        "id": "explaining-hooks;hook-scenario-explanation",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -14,128 +14,47 @@
             "result": {
               "status": "skipped"
             },
-            "line": 5,
-            "name": "user is on login page",
+            "line": 4,
+            "name": "Thanos has the Inifinity Stones",
             "match": {
-              "location": "LoginSteps.user_is_on_login_page()"
+              "location": "Thanos_StepDef_Hooks.thanos_has_the_Inifinity_Stones()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Thanos snaps his fingers",
+            "match": {
+              "location": "Thanos_StepDef_Hooks.thanos_snaps_his_fingers()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
               "status": "skipped"
             },
             "line": 6,
-            "name": "the user enters the valid username and password",
+            "name": "half of the living things died",
             "match": {
-              "location": "LoginSteps.the_user_enters_the_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "clicks on the login button",
-            "match": {
-              "location": "LoginSteps.clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "the user should be navigated to home page",
-            "match": {
-              "location": "LoginSteps.the_user_should_be_navigated_to_home_page()"
+              "location": "Thanos_StepDef_Hooks.half_of_the_living_things_died()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@Positive"
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "Negative scenario",
-        "description": "",
-        "id": "login;negative-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "user is on login page",
-            "match": {
-              "location": "LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user enters the valid username and password",
-            "match": {
-              "location": "LoginSteps.the_user_enters_the_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "clicks on the login button",
-            "match": {
-              "location": "LoginSteps.clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "the user should be navigated to home page",
-            "match": {
-              "location": "LoginSteps.the_user_should_be_navigated_to_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 10,
-            "name": "@Negative"
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "Explaining Hooks",
     "description": "",
-    "id": "login",
+    "id": "explaining-hooks",
     "keyword": "Feature",
-    "uri": "Login.feature",
+    "uri": "IAmInevitable_hook.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@SimpleLogin"
-      },
-      {
-        "line": 1,
-        "name": "@DataDriven"
+        "name": "@Hooks"
       }
     ]
   }

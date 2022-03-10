@@ -1,133 +1,54 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("IAmInevitable_hook.feature");
 formatter.feature({
   "line": 2,
-  "name": "Login",
+  "name": "Explaining Hooks",
   "description": "",
-  "id": "login",
+  "id": "explaining-hooks",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@SimpleLogin"
-    },
-    {
-      "line": 1,
-      "name": "@DataDriven"
+      "name": "@Hooks"
     }
   ]
 });
 formatter.scenario({
-  "line": 4,
-  "name": "Positive scenario",
+  "line": 3,
+  "name": "Hook scenario Explanation",
   "description": "",
-  "id": "login;positive-scenario",
+  "id": "explaining-hooks;hook-scenario-explanation",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@Positive"
-    }
-  ]
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Thanos has the Inifinity Stones",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "user is on login page",
-  "keyword": "Given "
+  "name": "Thanos snaps his fingers",
+  "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "the user enters the valid username and password",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "the user should be navigated to home page",
+  "name": "half of the living things died",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginSteps.user_is_on_login_page()"
+  "location": "Thanos_StepDef_Hooks.thanos_has_the_Inifinity_Stones()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "LoginSteps.the_user_enters_the_valid_username_and_password()"
+  "location": "Thanos_StepDef_Hooks.thanos_snaps_his_fingers()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "LoginSteps.clicks_on_the_login_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_should_be_navigated_to_home_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "Negative scenario",
-  "description": "",
-  "id": "login;negative-scenario",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 10,
-      "name": "@Negative"
-    }
-  ]
-});
-formatter.step({
-  "line": 12,
-  "name": "user is on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 13,
-  "name": "the user enters the valid username and password",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "the user should be navigated to home page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.user_is_on_login_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_enters_the_valid_username_and_password()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginSteps.clicks_on_the_login_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginSteps.the_user_should_be_navigated_to_home_page()"
+  "location": "Thanos_StepDef_Hooks.half_of_the_living_things_died()"
 });
 formatter.result({
   "status": "skipped"
