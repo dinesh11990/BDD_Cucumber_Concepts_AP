@@ -11,7 +11,7 @@ glue= {"stepDefinitions","hooks"},
 dryRun=true,
 monochrome=true,
 plugin={"html:report/WebReport", "json:report/jsonreport.json"},
-tags= {"@Hooks"}
+tags= {"@BackgroundExample"}
 )
 
 public class RunnerClass {
